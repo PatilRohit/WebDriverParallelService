@@ -3,7 +3,7 @@
 
 	<groupId>com.github.patilrohit</groupId>
 	<artifactId>WebDriverParallelService</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<packaging>jar</packaging>
 
 	<name>WebDriverParallelService</name>
@@ -96,7 +96,7 @@
 		<connection>scm:git:git://github.com/PatilRohit/WebDriverParallelService.git</connection>
 		<developerConnection>scm:git:git@github.com:PatilRohit/WebDriverParallelService.git</developerConnection>
 		<url>https://github.com/PatilRohit/WebDriverParallelService.git</url>
-		<tag>release1</tag>
+		<tag>WebDriverParallelService-0.0.1</tag>
 	</scm>
 
 	<profiles>
