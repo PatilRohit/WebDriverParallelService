@@ -1,10 +1,26 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.github.patilrohit</groupId>
 	<artifactId>WebDriverParallelService</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
+
+	<developers>
+		<developer>
+			<id>Rohit</id>
+			<name>Rohit Patil</name>
+			<email>rohitpatil4546@gmail.com</email>
+			<organization>RN Bros</organization>
+			<organizationUrl>https://github.com/PatilRohit/</organizationUrl>
+			<roles>
+				<role>Automation Developer</role>
+			</roles>
+			<timezone>+5.30</timezone>
+		</developer>
+	</developers>
 
 	<name>Selenium Web Driver Parallel Service</name>
 	<description>WebDriver service for parallel execution in TestNG</description>
