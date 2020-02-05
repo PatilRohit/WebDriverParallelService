@@ -26,14 +26,14 @@ Add dependency into project
     <dependency>
         <groupId>com.github.patilrohit</groupId>
         <artifactId>WebDriverParallelService</artifactId>
-        <version>0.0.1</version>
+        <version>0.0.2</version>
     </dependency>
 
 Create instance  of WebDriver service inside Test class
 
 Constructor = WDService(threadcount, Driver Type, PreStep);
 
-    WDService ws = new WDService(3, WDService.CHROME, new PreStep() {		
+    new WDService(WDService.CHROME, new PreStep() {		
 
         public void initDriver(WebDriver wd) {
 
@@ -50,13 +50,6 @@ Acquire WebDriver inside Test method
     public void testMethod(){
         WebDriver wd = WDService.getDriver(); 
         // Write you code
-    }
-
-And release it after
-
-    @AfterMethod
-    public void tearDown(ITestResult result){
-        WDService.releaseDriver(result. getName())
     }
 
 Finally quite all driver at end
